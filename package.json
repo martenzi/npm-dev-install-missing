@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "lint": "run-p lint:*",
-    "lint:js": "eslint ."
+    "lint": "eslint ."
   },
   "dependencies": {
     "css-declaration-sorter": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.4.1",
-    "npm-run-all": "4.0.2"
+    "eslint": "^4.4.1"
   }
 }
