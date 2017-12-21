@@ -1,0 +1,16 @@
+{
+  "name": "install-dev-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "run-p lint:*",
+    "lint:js": "eslint ."
+  },
+  "dependencies": {
+    "css-declaration-sorter": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "npm-run-all": "4.0.2"
+  }
+}
